@@ -62,6 +62,7 @@ Vous pouvez vérifier dans votre base de donnnées si les données sont bien imp
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![image](https://github.com/marjoriealbarico/ProjetAirflow/assets/95215416/5be9c616-449c-45e8-81d1-7e6ab6e867a3)
+<img width="869" alt="Capture d’écran 2023-11-22 à 20 03 25" src="https://github.com/marjoriealbarico/Airflow/assets/95215416/9233175f-2883-4b0e-9a3e-1c088ba56b81">
+
 
 
