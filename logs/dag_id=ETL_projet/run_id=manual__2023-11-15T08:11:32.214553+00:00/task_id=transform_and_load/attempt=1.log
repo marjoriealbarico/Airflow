@@ -1,0 +1,23 @@
+[2023-11-15T08:11:34.727+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_projet.transform_and_load manual__2023-11-15T08:11:32.214553+00:00 [queued]>
+[2023-11-15T08:11:34.731+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_projet.transform_and_load manual__2023-11-15T08:11:32.214553+00:00 [queued]>
+[2023-11-15T08:11:34.732+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-15T08:11:34.736+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): transform_and_load> on 2023-11-15 08:11:32.214553+00:00
+[2023-11-15T08:11:34.739+0000] {standard_task_runner.py:57} INFO - Started process 389 to run task
+[2023-11-15T08:11:34.742+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ETL_projet', 'transform_and_load', 'manual__2023-11-15T08:11:32.214553+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/ETL_projet.py', '--cfg-path', '/tmp/tmp6sjmt_lm']
+[2023-11-15T08:11:34.743+0000] {standard_task_runner.py:85} INFO - Job 31: Subtask transform_and_load
+[2023-11-15T08:11:34.763+0000] {task_command.py:416} INFO - Running <TaskInstance: ETL_projet.transform_and_load manual__2023-11-15T08:11:32.214553+00:00 [running]> on host 48045a1653b9
+[2023-11-15T08:11:34.792+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='a***' AIRFLOW_CTX_DAG_ID='ETL_projet' AIRFLOW_CTX_TASK_ID='transform_and_load' AIRFLOW_CTX_EXECUTION_DATE='2023-11-15T08:11:32.214553+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-15T08:11:32.214553+00:00'
+[2023-11-15T08:11:34.807+0000] {base.py:73} INFO - Using connection ID 'postgres_connexion' for task execution.
+[2023-11-15T08:11:34.834+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ETL_projet.py", line 29, in data_transform
+    data = json.load(file)
+NameError: name 'json' is not defined
+[2023-11-15T08:11:34.838+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=ETL_projet, task_id=transform_and_load, execution_date=20231115T081132, start_date=20231115T081134, end_date=20231115T081134
+[2023-11-15T08:11:34.842+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 31 for task transform_and_load (name 'json' is not defined; 389)
+[2023-11-15T08:11:34.876+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-15T08:11:34.884+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

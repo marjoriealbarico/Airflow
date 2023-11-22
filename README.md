@@ -1,15 +1,4 @@
-# ProjetAirflow
-Projet Airflow - M1 Entrepôt de données
-
-M1 Data Architecture:
-ALBARICO Marjorie,
-MAMPOUYA Charlyse
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Pour lancer Airflow web:
-$ docker compose up
-Le webserver est disponible au http://localhost:8080
+LIEN REPO GIT
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -58,10 +47,8 @@ Cliquez sur le buoton ▶️ qui se trouve en haut à droit pour lancer le dag
 Si vous cliquez sur l'onglet graph, vous trouverez les diférentes étapes
 Pour la création de table, nous avons choisi de faire premièrement les table tranche_age et departments_region. Ensuite, la table urgences_covid car il y a des clé étrangères qui sont référencées aux 2 premières tables.
 Une fois le dag est terminé, vous allez voir qu'ils sont tous en "success" en vert
-Vous pouvez vérifier dans votre base de donnnées si les données sont bien importées
+Vous pouvez vérifier dans votre base de donnnées si les données sont bien importé
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![image](https://github.com/marjoriealbarico/ProjetAirflow/assets/95215416/5be9c616-449c-45e8-81d1-7e6ab6e867a3)
-
-
+Pour répondre aux questions d'objectifs, vous pouvez lancez les requêtes dans votre base de données

@@ -1,0 +1,24 @@
+[2023-11-15T08:24:32.307+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_projet.create_table_dept manual__2023-11-15T08:24:30.881418+00:00 [queued]>
+[2023-11-15T08:24:32.311+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_projet.create_table_dept manual__2023-11-15T08:24:30.881418+00:00 [queued]>
+[2023-11-15T08:24:32.311+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-15T08:24:32.316+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_table_dept> on 2023-11-15 08:24:30.881418+00:00
+[2023-11-15T08:24:32.321+0000] {standard_task_runner.py:57} INFO - Started process 656 to run task
+[2023-11-15T08:24:32.325+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ETL_projet', 'create_table_dept', 'manual__2023-11-15T08:24:30.881418+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/ETL_projet.py', '--cfg-path', '/tmp/tmp7l3cd4uf']
+[2023-11-15T08:24:32.326+0000] {standard_task_runner.py:85} INFO - Job 54: Subtask create_table_dept
+[2023-11-15T08:24:32.359+0000] {task_command.py:416} INFO - Running <TaskInstance: ETL_projet.create_table_dept manual__2023-11-15T08:24:30.881418+00:00 [running]> on host 48045a1653b9
+[2023-11-15T08:24:32.396+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='a***' AIRFLOW_CTX_DAG_ID='ETL_projet' AIRFLOW_CTX_TASK_ID='create_table_dept' AIRFLOW_CTX_EXECUTION_DATE='2023-11-15T08:24:30.881418+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-15T08:24:30.881418+00:00'
+[2023-11-15T08:24:32.398+0000] {sql.py:274} INFO - Executing: CREATE TABLE IF NOT EXISTS departments_region (
+    num_dep_int INT PRIMARY KEY,
+    dep_name VARCHAR(100),
+    region_name VARCHAR(100)
+);
+[2023-11-15T08:24:32.402+0000] {base.py:73} INFO - Using connection ID 'postgres_connexion' for task execution.
+[2023-11-15T08:24:32.406+0000] {base.py:73} INFO - Using connection ID 'postgres_connexion' for task execution.
+[2023-11-15T08:24:32.415+0000] {sql.py:418} INFO - Running statement: CREATE TABLE IF NOT EXISTS departments_region (
+    num_dep_int INT PRIMARY KEY,
+    dep_name VARCHAR(100),
+    region_name VARCHAR(100)
+);, parameters: None
+[2023-11-15T08:24:32.424+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ETL_projet, task_id=create_table_dept, execution_date=20231115T082430, start_date=20231115T082432, end_date=20231115T082432
+[2023-11-15T08:24:32.458+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-15T08:24:32.479+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

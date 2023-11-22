@@ -1,0 +1,102 @@
+num_dep_int,dep_name,region_name
+1,Ain,Auvergne-Rhône-Alpes
+2,Aisne,Hauts-de-France
+3,Allier,Auvergne-Rhône-Alpes
+4,Alpes-de-Haute-Provence,Provence-Alpes-Côte d'Azur
+5,Hautes-Alpes,Provence-Alpes-Côte d'Azur
+6,Alpes-Maritimes,Provence-Alpes-Côte d'Azur
+7,Ardèche,Auvergne-Rhône-Alpes
+8,Ardennes,Grand Est
+9,Ariège,Occitanie
+10,Aube,Grand Est
+11,Aude,Occitanie
+12,Aveyron,Occitanie
+13,Bouches-du-Rhône,Provence-Alpes-Côte d'Azur
+14,Calvados,Normandie
+15,Cantal,Auvergne-Rhône-Alpes
+16,Charente,Nouvelle-Aquitaine
+17,Charente-Maritime,Nouvelle-Aquitaine
+18,Cher,Centre-Val de Loire
+19,Corrèze,Nouvelle-Aquitaine
+20,Côte-d'Or,Bourgogne-Franche-Comté
+21,Côtes-d'Armor,Bretagne
+22,Creuse,Nouvelle-Aquitaine
+23,Dordogne,Nouvelle-Aquitaine
+24,Doubs,Bourgogne-Franche-Comté
+25,Drôme,Auvergne-Rhône-Alpes
+26,Eure,Normandie
+27,Eure-et-Loir,Centre-Val de Loire
+28,Finistère,Bretagne
+29,Corse-du-Sud,Corse
+30,Haute-Corse,Corse
+31,Gard,Occitanie
+32,Haute-Garonne,Occitanie
+33,Gers,Occitanie
+34,Gironde,Nouvelle-Aquitaine
+35,Hérault,Occitanie
+36,Ille-et-Vilaine,Bretagne
+37,Indre,Centre-Val de Loire
+38,Indre-et-Loire,Centre-Val de Loire
+39,Isère,Auvergne-Rhône-Alpes
+40,Jura,Bourgogne-Franche-Comté
+41,Landes,Nouvelle-Aquitaine
+42,Loir-et-Cher,Centre-Val de Loire
+43,Loire,Auvergne-Rhône-Alpes
+44,Haute-Loire,Auvergne-Rhône-Alpes
+45,Loire-Atlantique,Pays de la Loire
+46,Loiret,Centre-Val de Loire
+47,Lot,Occitanie
+48,Lot-et-Garonne,Nouvelle-Aquitaine
+49,Lozère,Occitanie
+50,Maine-et-Loire,Pays de la Loire
+51,Manche,Normandie
+52,Marne,Grand Est
+53,Haute-Marne,Grand Est
+54,Mayenne,Pays de la Loire
+55,Meurthe-et-Moselle,Grand Est
+56,Meuse,Grand Est
+57,Morbihan,Bretagne
+58,Moselle,Grand Est
+59,Nièvre,Bourgogne-Franche-Comté
+60,Nord,Hauts-de-France
+61,Oise,Hauts-de-France
+62,Orne,Normandie
+63,Pas-de-Calais,Hauts-de-France
+64,Puy-de-Dôme,Auvergne-Rhône-Alpes
+65,Pyrénées-Atlantiques,Nouvelle-Aquitaine
+66,Hautes-Pyrénées,Occitanie
+67,Pyrénées-Orientales,Occitanie
+68,Bas-Rhin,Grand Est
+69,Haut-Rhin,Grand Est
+70,Rhône,Auvergne-Rhône-Alpes
+71,Haute-Saône,Bourgogne-Franche-Comté
+72,Saône-et-Loire,Bourgogne-Franche-Comté
+73,Sarthe,Pays de la Loire
+74,Savoie,Auvergne-Rhône-Alpes
+75,Haute-Savoie,Auvergne-Rhône-Alpes
+76,Paris,Île-de-France
+77,Seine-Maritime,Normandie
+78,Seine-et-Marne,Île-de-France
+79,Yvelines,Île-de-France
+80,Deux-Sèvres,Nouvelle-Aquitaine
+81,Somme,Hauts-de-France
+82,Tarn,Occitanie
+83,Tarn-et-Garonne,Occitanie
+84,Var,Provence-Alpes-Côte d'Azur
+85,Vaucluse,Provence-Alpes-Côte d'Azur
+86,Vendée,Pays de la Loire
+87,Vienne,Nouvelle-Aquitaine
+88,Haute-Vienne,Nouvelle-Aquitaine
+89,Vosges,Grand Est
+90,Yonne,Bourgogne-Franche-Comté
+91,Territoire de Belfort,Bourgogne-Franche-Comté
+92,Essonne,Île-de-France
+93,Hauts-de-Seine,Île-de-France
+94,Seine-Saint-Denis,Île-de-France
+95,Val-de-Marne,Île-de-France
+96,Val-d'Oise,Île-de-France
+97,Guadeloupe,Guadeloupe
+98,Martinique,Martinique
+99,Guyane,Guyane
+100,La Réunion,La Réunion
+101,Mayotte,Mayotte
