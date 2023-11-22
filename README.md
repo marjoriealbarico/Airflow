@@ -5,22 +5,22 @@ M1 Data Architecture: ALBARICO Marjorie, MAMPOUYA Charlyse
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PARAMÈTRAGES AIRFLOW CONNEXION :
-Connection Id  = postgres_connexion
-Connection Type = Postgres
-Host = host.docker.internal
-Schema = airflow
-login = airflow
-mdp = airflow
+Connection Id  = postgres_connexion,
+Connection Type = Postgres,
+Host = host.docker.internal,
+Schema = airflow,
+login = airflow,
+mdp = airflow,
 Port = 5435
 
 
 PARAMÈTRAGES POSTGRESQL (dbeaver):
-host = localhost
-port = 5435
-database = airflow
-authentification = databse native
-nom d'utiisateur = airflow
-mdp = airflow
+host = localhost,
+port = 5435,
+database = airflow,
+authentification = databse native,
+nom d'utiisateur = airflow,
+mdp = airflow,
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
