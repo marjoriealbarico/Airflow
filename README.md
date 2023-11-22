@@ -1,4 +1,6 @@
-LIEN REPO GIT
+Projet Airflow - M1 Entrepôt de données
+
+M1 Data Architecture: ALBARICO Marjorie, MAMPOUYA Charlyse
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,4 +53,5 @@ Vous pouvez vérifier dans votre base de donnnées si les données sont bien imp
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Pour répondre aux questions d'objectifs, vous pouvez lancez les requêtes dans votre base de données
+<img width="869" alt="Capture d’écran 2023-11-22 à 20 03 25" src="https://github.com/marjoriealbarico/Airflow/assets/95215416/1dfc751d-355f-40be-b20c-3a712500d2e6">
+
